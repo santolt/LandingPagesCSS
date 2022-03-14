@@ -1,0 +1,36 @@
+
+
+.sidebar{
+    h2{
+        text-align: center;
+    }
+    
+
+    .container-sidebar{
+        height: 100vh;
+
+        ul{
+
+            li{
+                cursor: pointer;
+                padding: 1rem;
+                border: 1px solid #000000;
+                margin-top: 5px;
+                background-color: #8cbc00;
+                display: block; // para que tome todo el ancho
+                color: #fff;
+                text-transform: uppercase;
+                font-weight: 900;
+                padding: 1rem;
+                transition:.3s ease-out;
+                
+                &:hover{
+                    background-color: rgb(59, 111, 49);
+                    
+                }
+            }
+
+        }
+    
+    }
+}

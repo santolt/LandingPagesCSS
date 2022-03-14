@@ -1,0 +1,150 @@
+
+// Header
+.header{
+    margin: 1rem;
+    .header__nav{
+        display: flex;
+        justify-content: space-between;
+
+        img{
+            width: 50px;
+            height: 25px;
+            margin-left: -10px;
+        }
+
+        .info-header{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            color: var(--primary);
+            font-weight: bold;
+            line-height: 1.3;
+            font-size: 8px;
+            margin-right: -10px;
+            
+
+            .info-header--saldo{
+                font-weight: 400;
+                
+            }
+        }
+    }
+}
+
+.banner{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    background-color: var(--primary);
+
+    .banner__title{
+        margin: .5rem;
+        font-size: 10px;
+        color: var(--white);
+    }
+
+}
+
+.save{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+    gap: .6rem;
+    background-color: purple;
+
+    
+    img{
+        width: 50px;
+        height: 50px;
+    }
+
+    .save__important-info{
+        margin: .5rem;
+        h2{
+            text-align: left;
+            color: var(--white);
+        }
+        p{
+            text-align: left;
+            padding: 0;
+            color: var(--white);
+        }
+    }
+}
+
+section{
+    h2{
+        font-size: 15px;
+        text-align: center;
+        color: var(--primary);
+    }
+    p{
+        font-size: .7rem;
+        text-align: center;
+        line-height: .8rem;
+        padding: .8rem;
+    }
+
+    .information__items{
+        
+        .information__items__services{
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            align-items: center;
+            gap: 1rem;
+            padding: 1rem;
+
+            img{
+                width: 50px;
+                height: 60px;
+                padding: .5rem;
+                
+            }
+            p{
+                padding: 0;
+                text-align: justify;
+                font-size: 10px;
+                
+                span{
+                    font-weight: bold;
+                }
+            }
+        }
+
+    }
+    h5{
+        color: var(--primary);
+        font-size: 12px;
+        text-align: center;
+        line-height: 1.2;
+    }
+    .information__contact{
+        span{
+            color: red;
+        }
+    }
+
+}
+
+footer{
+    text-align: center;
+    font-size: 12px;
+    h3{
+        color: var(--primary);
+    }
+    .footer__link{
+        color: red;
+    }
+    .footer__whatsApp{
+        font-weight: bold;
+    }
+    .number{
+        margin-bottom: .8rem;
+    }
+
+    .footer__puntos-col{
+        color: var(--primary);
+        padding-bottom: 2rem;
+        
+    }
+}

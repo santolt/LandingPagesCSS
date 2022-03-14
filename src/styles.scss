@@ -1,1 +1,35 @@
-/* You can add global styles to this file, and also import other style files */
+
+@import '../node_modules/normalize.css/normalize.css';
+
+:root{
+    --primary: #6834a6;
+    --white: #fff;
+    --mainFont: 'Poppins', sans-serif;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-family: var(--mainFont);
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+
+p{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+
+ul{
+    padding: 0;
+    li{
+        list-style: none;
+    }
+}
